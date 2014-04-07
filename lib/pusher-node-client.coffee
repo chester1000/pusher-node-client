@@ -2,7 +2,6 @@ WebSocket = require('websocket').client
 uuid = require 'node-uuid'
 crypto = require 'crypto'
 {EventEmitter} = require "events"
-_ = require 'underscore'
 
 class PusherChannel extends EventEmitter
   
